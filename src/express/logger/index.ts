@@ -1,7 +1,8 @@
 import bunyan from "bunyan";
 
-console.log("initialize");
-
+/**
+ * Base Logger
+ */
 export const logger = bunyan.createLogger({
   name: "myapp",
 });
